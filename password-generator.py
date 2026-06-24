@@ -33,4 +33,4 @@ while True:
     if input_key == "exit":
         break
     elif input_key == "pws":
-        сreate_password()
+        create_password()
