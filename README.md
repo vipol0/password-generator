@@ -65,7 +65,7 @@ pip install pyperclip
 
 Run the program:
 
-python main.py
+python password-generator.py
 
 Main menu:
 ```
