@@ -9,7 +9,7 @@ def clear_screen() -> None:
     os.system("cls" if os.name == "nt" else "clear")
 
 def press_menu() -> None:
-    input("\nPress Enter to return to the menu...")
+    input("\nPress enter to continue...")
 
 def get_password_length() -> int:
     while True:
@@ -36,7 +36,7 @@ def generate_password(length: int, characters: str) -> str:
     return ''.join(secrets.choice(characters) for _ in range(length))
 
 def copy_and_show_password(password: str) -> None:
-    print("\n------------------------")
+    print("------------------------")
     print("[OK] Password generated successfully.")
     try:
         pyperclip.copy(password)
